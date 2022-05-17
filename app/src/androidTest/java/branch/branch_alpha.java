@@ -3,10 +3,21 @@ package branch;
 public class branch_alpha {
     String name,id;
     float cgpa;
-    branch_alpha(String n,String i,float cg){
-        this.name=n;
-        this.id=i;
-        this.cgpa=cg;
+    int number;
+
+    public branch_alpha(String name, String id, float cgpa, int number) {
+        this.name = name;
+        this.id = id;
+        this.cgpa = cgpa;
+        this.number = number;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
     }
 
     public String getName() {
