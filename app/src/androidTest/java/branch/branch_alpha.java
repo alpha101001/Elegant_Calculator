@@ -3,6 +3,7 @@ package branch;
 public class branch_alpha {
     String name,id;
     float cgpa;
+
     double income;
 
 
@@ -15,6 +16,7 @@ public class branch_alpha {
     }
     public double getIncome() {
         return income;
+
     }
 
     public void setIncome(double income) {
